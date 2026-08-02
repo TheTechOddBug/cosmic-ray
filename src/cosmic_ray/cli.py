@@ -126,7 +126,7 @@ def handle_exec(config_file, session_file, verbosity):
     infrastructure (e.g. worker processes) are already running.
     """
     cfg = load_config(config_file)
-    
+
     if verbosity:
         log.setLevel(verbosity)
 
